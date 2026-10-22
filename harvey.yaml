@@ -1,98 +1,173 @@
+# The Branding Lab — Harvey configuration (trained 2026-10-22).
+# Mail credentials live in .env (never committed). See .env.example.
+
 persona:
-  name: "Harvey"
-  company: "Your Company"
-  role: "Business Development"
-  email: "harvey@yourcompany.com"
-  linkedin: "linkedin.com/in/harvey-yourcompany"
-  tone: "professional, consultative, confident"
-
+  name: Harvey
+  company: The Branding Lab
+  role: Business Development
+  email: harvey@the-branding-lab.com
+  linkedin: linkedin.com/in/harvey-the-branding-lab-com
+  tone: direct, practical, confident, craftsman-like
 product:
-  name: "Your Product"
-  description: "Describe what your product does and who it's for"
-  pricing: "Starting at $X/mo"
+  name: One-source branding, signage fabrication and installation
+  description: 'The Branding Lab is a full-service branding and fabrication agency in Trichardt, Mpumalanga,
+    South Africa, that designs, manufactures and installs every branded surface a business needs: 3D signage,
+    illuminated facades, large-format print, vehicle wraps, corporate identity, marketing content and
+    SANS-compliant safety signage. It replaces the designer-printer-welder-installer chain with one vendor
+    and one turnkey process. It is built for B2B clients such as dealerships, franchises, retail chains,
+    mines, industrial plants and fleet operators in Mpumalanga and Gauteng.'
+  pricing: Contact for pricing. Project size varies too widely to quote a range; pricing in South African
+    rand (ZAR). First engagement is a free site measure and photo-realistic mockup.
   key_benefits:
-    - "Benefit 1"
-    - "Benefit 2"
-    - "Benefit 3"
+  - Deal with one vendor for design, fabrication and installation instead of coordinating four suppliers
+  - See a photo-realistic mockup on your actual building or vehicle before any metal is cut
+  - In-house workshop gives direct quality control over cutting, printing, welding and wiring
+  - Durable, high-visibility physical assets that comply with national corporate brand guidelines
+  - Legally compliant SANS 1186 safety signage for mines and industrial sites
+  - 'Ongoing aftercare: maintenance, cleaning and re-skins when seasonal campaigns change'
+  - Unified brand aesthetic across signs, vehicles, uniforms and digital content
   objection_responses:
-    "too expensive": "I understand budget is important. Most of our clients see ROI within 30 days..."
-    "already have a solution": "That makes sense. Curious — what's the one thing you wish it did better?"
-    "not interested": "No worries at all. Mind if I ask what your current approach looks like?"
+    We can't commit to anything without a price, and you won't even give a ballpark.: 'That''s fair, and
+      the reason we don''t quote blind is that a 3D illuminated fascia and a fleet of wrapped bakkies
+      are different animals, so a range would mislead you either way. Our first step costs you nothing:
+      a site measure and a photo-realistic mockup on your actual building, after which you get a firm,
+      itemised quote in rand. Can we book that measure for next week so you''re pricing a real design
+      instead of a guess?'
+    We can get it cheaper by using a printer and a welder we already know.: You often can on the line
+      items, but the quote rarely includes the project management, the re-dos when the welder's frame
+      doesn't match the printer's panel, or the Saturday your ops manager spends coordinating three bakkies
+      on site. We absorb that coordination cost because everything is cut, printed and wired in one workshop
+      by one team. What did the last multi-supplier job actually cost you once you count the delays and
+      rework?
+    We've used the same local sign company for years and they've been fine.: 'Loyalty like that is earned,
+      and we''re not asking you to walk away from them. Where clients bring us in is for the work that
+      stretches a traditional sign shop: illuminated 3D fascias, SANS 1186 compliance audits, or a brand
+      roll-out that has to match across signs, vehicles and uniforms. Is there a project on your list
+      this year that feels bigger than what you''d normally hand them?'
+    Head office appoints a national signage supplier, so we don't have a say.: 'Understood, and the national
+      supplier usually owns the main pylon and fascia. What they typically don''t cover is everything
+      else your site needs: safety signage, vehicle wraps, promotional re-skins, interior branding and
+      maintenance, and that''s where a Trichardt-based team with its own installers beats a Johannesburg
+      crew on call-out time and cost. Could we look at what falls outside the national contract and quote
+      you on just that?'
+    We already have a marketing agency handling our brand.: Good, then they've done the hard work of defining
+      the identity, and our job is to make it physically exist on your buildings and fleet exactly as
+      they designed it. We work from their brand guidelines and give them a mockup to sign off before
+      fabrication, so nothing goes up that drifts from the standard. Would it help if we did a joint call
+      with your agency to show them how we take their artwork to production?
+    This isn't a priority right now; we've got bigger things on the plate.: 'Completely understand, and
+      nobody rebrands for fun. The timing question is usually driven by something external: a lease renewal,
+      a new franchise standard, a mine safety audit, or a fleet due for refresh, and the mockup and site
+      measure are free, so you lose nothing by having a costed plan ready when that trigger arrives. What''s
+      the event most likely to force this onto the plate in the next twelve months?'
+    Signage is a marketing expense, and budgets are frozen this year.: Many of our mining and industrial
+      clients fund it differently, because SANS 1186 safety signage and compliant site demarcation sit
+      under safety and compliance budgets, not marketing, and non-compliance findings cost far more than
+      the signs. The branding elements can then be phased once the compliance work is in. Who on your
+      side owns the safety and compliance budget, and could we include them in the site walk?
+    Switching suppliers means re-briefing everyone and it'll disrupt operations.: 'That''s a real cost,
+      which is why we front-load it: one site measure, one brief, and a mockup on your actual building
+      or vehicle so there are no surprises on install day. Installation is scheduled around your trading
+      hours or shift changes, and our own team does it, so there''s no third-party crew to manage. Which
+      site or vehicles would cause the least disruption if we started there as a pilot?'
+    'We''ve been burned before: the mockup looked great, the installed sign didn''t.': That gap almost
+      always comes from outsourcing, where the designer never meets the welder and the installer gets
+      what the courier drops off. Our mockup is built by the same people who cut, print, weld and install
+      it, so the thing on the wall is the thing you approved. Would you like to walk through our workshop
+      and see a job in progress before you decide?
+    I've never heard of The Branding Lab; how do I know you can handle a project this size?: 'A fair question,
+      and our answer is to show rather than tell: visit the workshop in Trichardt, speak to a dealership
+      or mine site we''ve completed nearby, and let us put a free mockup on your building so you can judge
+      the work before any money changes hands. Which of our existing client sites in Mpumalanga or Gauteng
+      would be most relevant for you to see?'
+    Our branding is fine as it is; customers know where we are.: Possibly, but faded fascias and mismatched
+      vehicle liveries signal to customers and head-office auditors that standards have slipped, and that
+      tends to show up in brand compliance scores before it shows up in sales. The free site measure includes
+      a plain assessment of what's compliant, what's fading and what's a safety risk, with no obligation.
+      When was the last time anyone looked at your signage with a brand standard or SANS checklist in
+      hand?
+    We're a mine site; we only need safety signage, not branding.: Then safety signage is where we start,
+      because SANS 1186 compliance is a legal exposure, not a nice-to-have, and we fabricate it to spec
+      in our own workshop with installers who are used to working under site induction rules. Once your
+      site is compliant, the same team can handle demarcation, vehicle identification and contractor branding
+      whenever you need it. Would a site audit against SANS 1186 be useful ahead of your next DMRE inspection?
   offer:
-    primary: ""                    # Main offer (e.g., "Monthly subscription starting at $99/mo")
-    entry: ""                      # Low-commitment entry (e.g., "14-day free trial", "Free audit")
-    goal: "book_call"              # Goal of outreach: book_call, start_trial, get_reply
-    booking_method: "calendar_link" # calendar_link, suggest_times, ask_preference
-    booking_url: ""                # Calendar link URL (if using calendar_link method)
-    meeting_duration: "15 minutes" # How long the call is
-    meeting_owner: ""              # Who takes the meeting (name or role)
-
+    primary: Turnkey design, in-house fabrication and installation of signage, storefronts, vehicle livery
+      and safety signage, quoted per project in rand after a site measure
+    entry: Free site measure and a photo-realistic mockup of the signage on your actual building or vehicle,
+      no obligation
+    goal: book_call
+    booking_method: ask_preference
+    booking_url: ''
+    meeting_duration: 30 minutes on site
+    meeting_owner: ''
 icp:
   industries:
-    - "SaaS"
-    - "Marketing Agency"
-  company_size: "10-200 employees"
+  - Automotive dealerships (new and used, franchised brands such as Toyota, Mahindra, Westvaal)
+  - Real estate agencies and franchise branches (e.g. Remax)
+  - Retail chain stores, showrooms and franchised brick-and-mortar outlets
+  company_size: 20-500 employees
   titles:
-    - "VP Marketing"
-    - "Head of Growth"
-    - "CMO"
-    - "Director of Marketing"
+  - Dealer Principal
+  - Franchise Owner
+  - Franchisee
+  - Owner
+  - Managing Director
+  - Marketing Manager
+  - Brand Manager
+  - Group Marketing Manager
+  - Head of Marketing
+  - Operations Manager
+  - Branch Manager
+  - Store Manager
+  - Showroom Manager
+  - General Manager
+  - Property Manager
+  - Facilities Manager
   geography:
-    - "United States"
-  # Roles that signal a company is in-market RIGHT NOW (a company hiring a
-  # "Head of Growth" is shopping for growth tooling). Used for careers-page
-  # scanning and job-board discovery. Empty = fall back to titles above.
+  - Mpumalanga, South Africa
+  - Gauteng, South Africa
+  - Trichardt, Mpumalanga, South Africa
+  - Secunda, Mpumalanga, South Africa
+  - eMalahleni (Witbank), Mpumalanga, South Africa
+  - Middelburg, Mpumalanga, South Africa
+  - Ermelo, Mpumalanga, South Africa
+  - Mbombela (Nelspruit), Mpumalanga, South Africa
+  - Johannesburg, Gauteng, South Africa
+  - Pretoria, Gauteng, South Africa
   hiring_signals: []
-
 channels:
   email:
     enabled: true
-    provider: "gmail"          # gmail (recommended) | microsoft | smtp | instantly
+    provider: gmail
     max_daily_sends: 50
-    require_approval: true      # native: review in Outbox; Instantly: sending held
-    send_to_risky: false        # also send to catch-all domains (off = safest)
-    max_bounce_rate: 0.05       # pause all sending if bounces exceed this
-    # New sending domain? Set start_date to the day your warmup service went
-    # on: no cold email for min_days, then the cold cap climbs from
-    # start_sends by daily_increase a day up to max_daily_sends. Replies are
-    # never held. Gmail/Microsoft/SMTP only (Instantly has its own warmup).
-    # Check readiness any time with `harvey warmup`.
+    require_approval: true
+    send_to_risky: false
+    max_bounce_rate: 0.05
     warmup:
-      start_date: ""            # YYYY-MM-DD; blank = no ramp
+      start_date: ''
       min_days: 14
       start_sends: 5
       daily_increase: 3
-      dkim_selector: ""         # only if your provider uses an unusual one
+      dkim_selector: ''
   linkedin:
-    enabled: false             # explicit opt-in; credentials alone do not enable it
+    enabled: false
     max_daily_connections: 20
     max_daily_messages: 10
-
 usage:
   max_daily_claude_percent: 80
   heartbeat_interval_minutes: 15
   quiet_hours:
-    start: "22:00"
-    end: "07:00"
-    timezone: "America/New_York"
-
-# Optional: check each new recipient with Precleared (precleared.dev) before
-# the first cold email: may cold marketing email go to this address under UK
-# PECR, US CAN-SPAM, Canada's CASL, Germany's UWG and France's rules? Any other
-# answer holds the email back, with the reason in the Outbox. One check per
-# address; 10 a day free without a key, 25 with a free key (PRECLEARED_API_KEY
-# in .env). Applies to the native providers (gmail, smtp). If all your prospects
-# are in one country, set prospect_country: Precleared uses it only when it can't
-# tell the country from the address, company records or the company's website.
+    start: '18:00'
+    end: 07:30
+    timezone: Africa/Johannesburg
 compliance:
-  # Added under every cold email (never replies). US law (CAN-SPAM) requires a
-  # postal address you receive mail at: a street address, PO box or virtual
-  # mailbox. Until it's set, cold email still sends, with a warning.
-  postal_address: ""
-  # Keep wording Harvey recognises as an opt-out ("no thanks", "unsubscribe").
-  opt_out_line: 'Not interested? Reply "no thanks" and I won''t email again.'
+  postal_address: ''
+  opt_out_line: Not interested? Reply "no thanks" and I won't email again.
   precleared:
     enabled: false
-    sender_country: ""          # GB or US: where your business is based
-    address_source: "unknown"   # published | bought | scraped | given | unknown
-    prospect_country: ""        # optional, e.g. US if all your prospects are in one country
+    sender_country: ''
+    address_source: unknown
+    prospect_country: ZA
+brain:
+  provider: claude
