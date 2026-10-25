@@ -2,11 +2,11 @@
 # Mail credentials live in .env (never committed). See .env.example.
 
 persona:
-  name: Harvey
+  name: Nadir
   company: The Branding Lab
-  role: Business Development
-  email: harvey@the-branding-lab.com
-  linkedin: linkedin.com/in/harvey-the-branding-lab-com
+  role: Sales
+  email: sales@the-branding-lab.com
+  linkedin: ''
   tone: direct, practical, confident, craftsman-like
 product:
   name: One-source signage, fabrication and branding solution (design, fabricate, install)
@@ -87,7 +87,7 @@ product:
     booking_method: ask_preference
     booking_url: ''
     meeting_duration: 15 minutes
-    meeting_owner: ''
+    meeting_owner: Nadir or Mohammed
 icp:
   industries:
   - Automotive dealerships (new and used, franchised brands such as Toyota, Mahindra, Westvaal)
@@ -150,7 +150,7 @@ usage:
     end: 07:30
     timezone: Africa/Johannesburg
 compliance:
-  postal_address: ''
+  postal_address: The Branding Lab, Trichardt, 2302, Mpumalanga, South Africa
   opt_out_line: Not interested? Reply "no thanks" and I won't email again.
   precleared:
     enabled: false
